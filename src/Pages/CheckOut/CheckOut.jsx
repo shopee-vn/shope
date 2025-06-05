@@ -337,7 +337,7 @@ function CheckOut() {
                                                 }
                                                 type="text"
                                                 placeholder="Mã Shopee Voucher"
-                                                className="flex-1 rounded border border-gray-300 px-[8px] py-[8px] text-[12px] outline-none"
+                                                className="flex-1 text-[14px] rounded border border-gray-300 px-[8px] py-[8px] text-[12px] outline-none"
                                             />
                                             <button
                                                 onClick={handleApplyVoucher}
