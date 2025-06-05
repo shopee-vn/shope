@@ -9,8 +9,7 @@ import {
     faHeart as fasHeart,
     faStar as fasStar,
     faStarHalfAlt,
-    faCheck,
-    faVolumeHigh,
+    faCheck
 } from "@fortawesome/free-solid-svg-icons";
 
 import "./ProductCard.scss";

@@ -1,3 +1,14 @@
+.custom-modal .ant-btn-color-primary {
+  border-radius: unset;
+  background-color: #ee4d2d !important;
+  padding: 18px 46px;
+}
+
+
+.custom-modal .ant-btn-color-default {
+  padding: 18px 42px;
+  border-radius: unset;
+}
 
 :root {
   --white-color: #fff;

@@ -62,7 +62,7 @@ function ProductDetail() {
     }
 
     const handleBuyNow = () => {
-        navigate("/checkout", {
+        navigate(`/checkout/${product.id}`, {
             state: {
                 version: selectedVersion,
                 finalPrice: finalPrice,
