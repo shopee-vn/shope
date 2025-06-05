@@ -245,7 +245,7 @@ function Header() {
                 </nav>
                 <div className="header-with-search">
                     <div class="logo">
-                        <a href="/" class="logo__link">
+                        <a href="/shope" class="logo__link">
                             <svg viewBox="0 0 192 65" class="logo__img">
                                 <g fill-rule="evenodd">
                                     <path
