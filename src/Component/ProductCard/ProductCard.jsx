@@ -17,8 +17,8 @@ import "./ProductCard.scss";
 function ProductCard(props) {
     return (
         <Link to={`/product/${props.product.id}`} className="home-product-item">
-            <div className="home-product-item__img">
-                <img src={props.product.image} />
+            <div className="home-product-item__img w-[230px] h-[230px]">
+                <img className="w-full h-full object-cover" src={props.product.image} />
             </div>
             <h4 className="home-product-item__name">{props.product.name}</h4>
             <div className="home-product-item__price">
