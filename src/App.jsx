@@ -1,21 +1,18 @@
 import { useState } from "react";
 import "./App.css";
-import { Header } from "./Component/Header";
-import { ProductCard } from "./Component/ProductCard";
-import { Pagination } from "./Component/Pagination";
-import { Footer } from "./Component/Footer";
-import Banner from "./Component/Banner/Banner";
-import ProductList from "./Component/ProductList/ProductList";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ProductDetail } from "./Pages/ProductDetail";
+import { Home } from "./Pages/Home";
+import { CheckOut } from "./Pages/CheckOut";
 
 function App() {
     return (
         <>
-            <Header />
-            {/* <Banner />
-            <ProductList /> */}
-            <ProductDetail/>
-            <Footer />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/product/:id" element={<ProductDetail />} />
+                <Route path="/checkout" element={<CheckOut />} />
+            </Routes>
         </>
     );
 }
