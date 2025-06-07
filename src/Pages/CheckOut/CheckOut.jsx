@@ -201,12 +201,12 @@ function CheckOut() {
                                         {product.name}
                                     </p>
                                     <p className="text-gray-500">
-                                        Phân loại hàng: Titan - {product.color}
+                                        Phân loại hàng: {product.color}
                                     </p>
                                 </div>
                             </div>
                             <div className="text-center">
-                                ₫{finalPrice.toLocaleString()}
+                                ₫{finalPrice.toLocaleString("vi-VN")}
                             </div>
                             <div className="flex items-center justify-center">
                                 <button
@@ -226,7 +226,7 @@ function CheckOut() {
                                 </button>
                             </div>
                             <div className="text-center text-[#ee4d2d]">
-                                ₫{totalPrice.toLocaleString()}
+                                ₫{totalPrice.toLocaleString("vi-VN")}
                             </div>
                             <div className="cursor-pointer text-center text-blue-500 hover:underline">
                                 Xóa
@@ -288,7 +288,7 @@ function CheckOut() {
                                 >
                                     {discountAmount && discountAmount > 0 ? (
                                         <div className="flex items-center gap-[4px]">
-                                            <div className="text-[14px] text-[#EE4D2D]">- {discountAmount}</div>
+                                            <div className="text-[14px] text-[#EE4D2D]">- {discountAmount.toLocaleString("vi-VN")}</div>
                                             <div>
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -435,7 +435,7 @@ function CheckOut() {
                                         <div className="flex items-center text-[24px] font-semibold text-[#ee4d2d]">
                                             <div className="text-[16px]">₫</div>
                                             <div>
-                                                {finalTotal.toLocaleString()}
+                                                {finalTotal.toLocaleString("vi-VN")}
                                             </div>
                                         </div>
                                     </div>
@@ -444,7 +444,7 @@ function CheckOut() {
                                         <div className="flex items-center text-[#ee4d2d]">
                                             <div className="text-[12px]">₫</div>
                                             <div>
-                                                {discountAmount.toLocaleString()}
+                                                {discountAmount.toLocaleString("vi-VN")}
                                             </div>
                                         </div>
                                     </div>

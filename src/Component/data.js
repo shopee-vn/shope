@@ -12,7 +12,7 @@ const products = [
         location: "Việt nam",
         quantity: "89",
         author: "Hoang Ha Mobile",
-        color: "Vàng",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/1_dheely.png",
         rating: "4.9",
@@ -51,7 +51,7 @@ const products = [
         location: "Việt nam",
         quantity: "220",
         author: "Hoang Soi Store",
-        color: "Trắng",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
         rating: "4.9",
@@ -89,7 +89,7 @@ const products = [
         location: "Việt nam",
         quantity: "260",
         author: "Tran Doan Store",
-        color: "Đen",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363512/Ch%E1%BB%8B_thu%E1%BA%ADn_nwitxu.png",
         rating: "4.8",
@@ -127,7 +127,7 @@ const products = [
         location: "Việt nam",
         quantity: "198",
         author: "One Mobile",
-        color: "Bạc",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
         rating: "4.8",
@@ -165,7 +165,7 @@ const products = [
         location: "Việt nam",
         quantity: "106",
         author: "Mobile City",
-        color: "Đen",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/1_dheely.png",
         rating: "4.9",
@@ -203,7 +203,7 @@ const products = [
         location: "Việt nam",
         quantity: "118",
         author: "Ha Com",
-        color: "Trắng",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/1_dheely.png",
         rating: "4.9",
@@ -241,7 +241,7 @@ const products = [
         location: "Việt nam",
         quantity: "198",
         author: "The Gioi Di Dong",
-        color: "Vàng",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363512/Ch%E1%BB%8B_thu%E1%BA%ADn_nwitxu.png",
         rating: "5.0",
@@ -279,7 +279,7 @@ const products = [
         location: "Việt nam",
         quantity: "89",
         author: "Ha My Store",
-        color: "Bạc",
+        color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
         rating: "4.7",
@@ -317,7 +317,7 @@ const products = [
         location: "Việt nam",
         quantity: "198",
         author: "The Gioi Di Dong",
-        color: "Đen",
+        color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
         rating: "4.9",
@@ -355,7 +355,7 @@ const products = [
         location: "Việt nam",
         quantity: "130",
         author: "Quanh Dev Store",
-        color: "Trắng",
+        color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363512/Ch%E1%BB%8B_thu%E1%BA%ADn_nwitxu.png",
         rating: "4.9",
@@ -393,7 +393,7 @@ const products = [
         location: "Việt nam",
         quantity: "118",
         author: "The Gioi Di Dong",
-        color: "Vàng",
+        color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363512/Ch%E1%BB%8B_thu%E1%BA%ADn_nwitxu.png",
         rating: "4.9",
@@ -431,7 +431,7 @@ const products = [
         location: "Việt nam",
         quantity: "89",
         author: "Hoang Ha Mobile",
-        color: "Vàng",
+        color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/1_dheely.png",
         rating: "4.9",
@@ -469,7 +469,7 @@ const products = [
         location: "Việt nam",
         quantity: "198",
         author: "One Mobile",
-        color: "Bạc",
+        color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
         rating: "4.8",
@@ -507,7 +507,7 @@ const products = [
         location: "Việt nam",
         quantity: "106",
         author: "Mobile City",
-        color: "Đen",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/1_dheely.png",
         rating: "4.9",
@@ -545,7 +545,7 @@ const products = [
         location: "Việt nam",
         quantity: "118",
         author: "Ha Com",
-        color: "Trắng",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/1_dheely.png",
         rating: "4.9",
@@ -583,7 +583,7 @@ const products = [
         location: "Việt nam",
         quantity: "89",
         author: "Hoang Ha Mobile",
-        color: "Vàng",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/1_dheely.png",
         rating: "4.9",
@@ -622,7 +622,7 @@ const products = [
         location: "Việt nam",
         quantity: "220",
         author: "Hoang Soi Store",
-        color: "Trắng",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
         rating: "4.9",
@@ -660,7 +660,7 @@ const products = [
         location: "Việt nam",
         quantity: "260",
         author: "Tran Doan Store",
-        color: "Đen",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363512/Ch%E1%BB%8B_thu%E1%BA%ADn_nwitxu.png",
         rating: "4.8",
@@ -698,7 +698,7 @@ const products = [
         location: "Việt nam",
         quantity: "198",
         author: "One Mobile",
-        color: "Bạc",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
         rating: "4.8",
@@ -736,7 +736,7 @@ const products = [
         location: "Việt nam",
         quantity: "106",
         author: "Mobile City",
-        color: "Đen",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/1_dheely.png",
         rating: "4.9",
@@ -774,7 +774,7 @@ const products = [
         location: "Việt nam",
         quantity: "118",
         author: "Ha Com",
-        color: "Trắng",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/1_dheely.png",
         rating: "4.9",
@@ -812,7 +812,7 @@ const products = [
         location: "Việt nam",
         quantity: "198",
         author: "The Gioi Di Dong",
-        color: "Vàng",
+        color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363512/Ch%E1%BB%8B_thu%E1%BA%ADn_nwitxu.png",
         rating: "5.0",
@@ -850,7 +850,7 @@ const products = [
         location: "Việt nam",
         quantity: "89",
         author: "Ha My Store",
-        color: "Bạc",
+        color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
         rating: "4.7",
@@ -888,7 +888,7 @@ const products = [
         location: "Việt nam",
         quantity: "198",
         author: "The Gioi Di Dong",
-        color: "Đen",
+        color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
         rating: "4.9",
@@ -926,7 +926,7 @@ const products = [
         location: "Việt nam",
         quantity: "130",
         author: "Quanh Dev Store",
-        color: "Trắng",
+        color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
             "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363512/Ch%E1%BB%8B_thu%E1%BA%ADn_nwitxu.png",
         rating: "4.9",

@@ -301,7 +301,7 @@ function ProductDetail() {
                         <p className="text-[14px] text-[#757575]">Phân Loại</p>
                         <div className="pl-[20px]">
                             <div className="flex flex-wrap gap-[8px]">
-                                {typesPhone.map((item) => (
+                                {product.color.map((item) => (
                                     <button
                                         key={item}
                                         onClick={() => setSelectedTypes(item)}
