@@ -51,9 +51,9 @@ function ProductDetail() {
         if (selectedVersion === "512") {
             setFinalPrice(originalPrice);
         } else if (selectedVersion === "256") {
-            setFinalPrice(Math.round(originalPrice * 0.95));
+            setFinalPrice(Math.round(originalPrice * 0.81));
         } else if (selectedVersion === "128") {
-            setFinalPrice(Math.round(originalPrice * 0.9));
+            setFinalPrice(Math.round(originalPrice * 0.75));
         }
     }, [selectedVersion, originalPrice]);
 
